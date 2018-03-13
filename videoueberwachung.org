@@ -1,0 +1,49 @@
+* Videoüberwachung für das Bienenhaus
+
+
+Zeitvorgabe: Inbetriebnahme <2018-04-09 Mo>
+
+Ziele:
+
+- Bewegungen erkennt
+- Zeitsteuerung: nur aktiv zwischen 18 und 7 Uhr
+- im Falle einer Bewegung:
+- Bilder machen
+- per mail versenden
+
+
+** Teilaufgaben
+
+*** TODO Internet im Bienenhaus
+(Powerline-Adapter? oder WLAN?)
+
+*** TODO email-configuration
+emails aus python-programm 
+(Anmeldug am smtp-Server etc.)
+
+*** TODO Einstellung der Bildaufnahme
+**** raspistill kennen lernen ;-)
+raspistill -v -ex night -q 75 -o bild.jpg
+
+**** Bewegung erkennen?
+**** Personen erkennen (Richtung KI)
+
+*** TODO Python-Programm entwickeln
+
+
+*** Systemadministration
+
+**** DONE Raspi zusammenbosseln
+**** DONE Raspian installieren
+**** TODO Autostart der Programme beim Hochfahren des Systems
+(runlevel-Dateien)
+
+**** TODO Autostart auf Zeit
+(cron-jobs)
+
+**** TODO Konfiguration Grundsystem
+- kein Grafikbetrieb
+
+*** TODO Zusatzpunkte: Oberfläche zur Administration
+
+*** TODO Physische Installation
