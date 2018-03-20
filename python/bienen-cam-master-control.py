@@ -67,6 +67,7 @@ def bild_machen():
 while 1 > 0 :
     schrott = bild_machen()
     schrott = mail_schicken()
-    tile_sleep (900)
+    print ("Bild aufgenommen und verschickt")
+    time_sleep (900)
 
 
